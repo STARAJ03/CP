@@ -4,6 +4,7 @@ import sys
 import time
 import asyncio
 import aiohttp
+import requests
 from subprocess import getstatusoutput
 
 import core as helper
