@@ -253,8 +253,6 @@ async def process_links(bot: Client, m: Message, state: dict):
                     f"**downloading Interupted **\n{str(e)}\n**Name** » {name}\n**Link** » `{url}`"
                 )
                 continue
-
-    await m.reply_text("**𝔻ᴏɴᴇ 𝔹ᴏ𝕤𝕤😎**")
-
-
+            except Exception as e:
+                await m.reply_text("**𝔻ᴏɴᴇ 𝔹ᴏ𝕤𝕤😎**")
 bot.run()
